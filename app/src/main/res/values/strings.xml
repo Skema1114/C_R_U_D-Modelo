@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">C_R_U_D</string>
+    <string name="textLoginNomr">Login:</string>
+    <string name="editLoginNome" />
+    <string name="textLoginSenha">Senha:</string>
+    <string name="editLoginSenha" />
+    <string name="checkBoxLogin">Manter Conectado ?</string>
+    <string name="btnLoginEntrar">Entrar</string>
+    <string name="btnFaceBook">Logar com Facebook ?</string>
+
+    <string name="obrigaLogin">O Campo LOGIN é Obrigatorio !</string>
+    <string name="obrigaSenha">O Campo SENHA é Obrigatorio !</string>
+
+    <string name="msgLoginIncorreto">Usuário e(ou) Senha Inválidos!!!</string>
+    <string name="obrigatorio">Este Campo é Obrigatorio!!!</string>
+
+    <string name="mensagem_cadastrar">Resgistro Cadastro com Sucesso ! </string>
+    <string name="mensagem_atualizar">Resgistro Atualizado com Sucesso ! </string>
+    <string name="mensagem_erro">Erro ao Salvar !! ! </string>
+
+    <string name="salvar">Salvar</string>
+    <string name="excluir">Excluir</string>
+    <string name="sair">Sair</string>
+    <string name="cadastrar_usuario">Cadastrar Usuário</string>
+    <string name="listar_usuario">Listar Usuários</string>
+
+    <string name="usuario_nome">Nome:</string>
+    <string name="usuario_login">Login:</string>
+    <string name="usuario_senha">Senha:</string>
+
+    <string name="atualizar_usuario">Atualizar Usuário</string>
+    <string name="logout">Finalizar Sessão</string>
+</resources>

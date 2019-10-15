@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cadastro_usuario"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context="com.example.aluno.c_r_u_d__do__xk.CadastroUsuarioActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:text="@string/usuario_nome"
+                style="@style/NomeCampos"
+                android:layout_marginBottom="20dp"></TextView>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:id="@+id/usuario_editNome"
+                android:hint="Informe o Nome"
+                android:layout_marginBottom="20dp"/>
+
+
+            <TextView
+                android:text="@string/usuario_login"
+                style="@style/NomeCampos"
+                android:layout_marginBottom="20dp"></TextView>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:id="@+id/usuario_informeLogin"
+                android:hint="Informe Login"
+                android:layout_marginBottom="20dp"/>
+
+
+            <TextView
+                android:text="@string/usuario_senha"
+                style="@style/NomeCampos"
+                android:layout_marginBottom="20dp"></TextView>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:id="@+id/usuario_informeSenha"
+                android:hint="Informe a Senha"
+                android:layout_marginBottom="20dp"/>
+        </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:layout_marginBottom="50dp"
+    tools:context="com.example.aluno.c_r_u_d__do__xk.LoginActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Login:"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:textAlignment="textStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textLoginNome"
+        tools:text="@string/textLoginNomr" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/editLoginNome"
+        android:ems="10"
+        android:id="@+id/editLoginNome"
+        android:hint="Insira seu Login" />
+
+    <TextView
+        android:text="Senha:"
+        android:textSize="20dp"
+        android:textAlignment="textStart"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textLoginSenha"
+        tools:text="@string/textLoginSenha" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editLoginSenha"
+        android:hint="Insira a sua Senha"
+        android:text="@string/editLoginSenha" />
+
+    <CheckBox
+        android:text="@string/checkBoxLogin"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxLogin" />
+
+    <Button
+        android:text="@string/btnLoginEntrar"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLoginEntrar"
+        android:elevation="4dp" />
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="action_menu_salvar" type="id">action_menu_salvar</item>
+    <item name="action_menu_excluir" type="id">action_menu_excluir</item>
+    <item name="action_menu_sair" type="id">action_menu_sair</item>
+    <item name="action_listar_usuarios" type="id">action_listar_usuarios</item>
+    <item name="action_cadastrar_usuarios" type="id">action_cadastrar_usuarios</item>
+    <item name="activity_list_logout" type="id">activity_list_logout</item>
+    <item name="activity_list_sair" type="id">activity_list_sair</item>
+</resources>

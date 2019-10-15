@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="action_menu_salvar" type="id">action_menu_salvar</item>
+    <item name="action_menu_sair" type="id">action_menu_sair</item>
+    <item name="action_listar_usuarios" type="id">action_listar_usuarios</item>
+</resources>

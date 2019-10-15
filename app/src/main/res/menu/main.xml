@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@id/action_listar_usuarios"
+        android:title="@string/listar_usuario"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        ></item>
+
+    <item android:id="@id/action_cadastrar_usuarios"
+        android:title="@string/cadastrar_usuario"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        ></item>
+
+    <item android:id="@id/activity_list_logout"
+        android:title="@string/logout"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        ></item>
+
+    <item android:id="@id/activity_list_sair"
+        android:title="@string/sair"
+        android:orderInCategory="103"
+        android:showAsAction="never"
+        ></item>
+</menu>
